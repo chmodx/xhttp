@@ -57,5 +57,18 @@ Check ports 80 and 443 on the domains example1.com and example2.com and export t
 python xhttp.py -d example1.com example2.com -p 80 443 -e json -o results.json -s 
 ```
 
+## Features
+* Asynchronously check for open connections on multiple domains and ports using the asyncio and aiohttp libraries.
+* Retrieve banner from response when specified.
+* Option to use HTTPS connections.
+* Print or save results in either text or JSON format.
+* Read list of domains from a file.
+* Use of argparse library for easy customization via command-line arguments.
+* Default timeout and ports provided.
+* Suitable for bug hunters.
+* Easy to use and customize.
+* Efficient and fast.
+* Can be used as a security tool.
+
 ## License
 This utility is released under the MIT License.
